@@ -3,7 +3,7 @@
 This repository contains all the code required to create the database, train the models and create the figures shown in the paper. 
 
 ## Setup
-To setup the environment to run the code, run `source setup.bash`. Additionally, the python environment required to running is detailed in the `environment.yml` file, install using conda by running the command `conda env create -f environment.yml`.
+To setup the environment to run the code, run `source setup.bash`. Additionally, the python environment required to running is detailed in the `environment.yml` file, install using conda by running the command `conda env create -f environment.yml`. Also the Porphystruct software should be installed on your system. It can be done by following instructions on https://github.com/JensKrumsieck/PorphyStruct.
 
 ## Structure of the repo
 All the code is found in the `src` directory. The function of the different scripts is detailed below
