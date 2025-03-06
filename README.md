@@ -1,4 +1,4 @@
-# Code repository for paper: "Data-Driven Insights into Porphyrin Geometry: Interpretable AI for Non-Planarity and Aromaticity Analyses:
+# Code repository for paper: "Data-Driven Insights into Porphyrin Geometry: Interpretable AI for Non-Planarity and Aromaticity Analyses"
 
 This repository contains all the code required to create the database, train the models and create the figures shown in the paper. 
 
