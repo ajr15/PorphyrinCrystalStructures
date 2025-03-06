@@ -419,7 +419,7 @@ def read_influence_results(models_dir: str, ci_alpha: float, target_features: st
             p = os.path.join(models_dir, md, directory)
             if os.path.isdir(p):
                 model = load_model(p)
-                if model == "rf":
+                if target_model == "rf":
                     data.append(model.feature_importances_)
                 else:
                     # data.append(model.coef_ ** 2 / np.sum(model.coef_ ** 2))
